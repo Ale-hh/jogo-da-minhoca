@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Snake Game</title>
+
+<link rel="stylesheet" href="snakegame.css">
+
+</head>
+
+<body>
+
+<h1>🐍 Snake Game</h1>
+
+<div class="score">
+Pontos: <span id="score">0</span>
+</div>
+
+
+<div class="game" id="game"></div>
+
+
+<div class="game-over" id="gameOver">
+Game Over! Pressione F5 para reiniciar.
+</div>
+
+
+<div class="controls">
+
+<div></div>
+
+<button onclick="changeDirection('up')">⬆</button>
+
+<div></div>
+
+
+<button onclick="changeDirection('left')">⬅</button>
+
+<button onclick="changeDirection('down')">⬇</button>
+
+<button onclick="changeDirection('right')">➡</button>
+
+
+</div>
+
+
+<script src="snakegame.js"></script>
+
+</body>
+</html>
